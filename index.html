@@ -2,88 +2,121 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Maria Abishek | DevOps Engineer</title>
 
 <style>
-body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    background: #f4f6f8;
-    color: #333;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
-header {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(135deg, #0f172a, #1e293b);
-    color: #fff;
+body{
+font-family:Segoe UI,sans-serif;
+line-height:1.6;
+background:#f4f7fb;
+color:#222;
 }
 
-h1 {
-    margin: 0;
-    font-size: 34px;
+header{
+background:linear-gradient(135deg,#0f172a,#1e3a8a);
+color:white;
+padding:70px 20px;
+text-align:center;
 }
 
-.subtitle {
-    margin-top: 10px;
-    font-size: 18px;
-    color: #cbd5f5;
+header h1{
+font-size:42px;
+margin-bottom:10px;
 }
 
-.container {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
+header p{
+margin:8px 0;
 }
 
-section {
-    background: #fff;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+.hero-badge{
+display:inline-block;
+margin-top:20px;
+padding:12px 18px;
+background:#16a34a;
+border-radius:30px;
+font-weight:bold;
 }
 
-h2 {
-    border-left: 4px solid #3b82f6;
-    padding-left: 10px;
-    color: #0f172a;
+.container{
+max-width:1000px;
+margin:auto;
+padding:30px 20px;
 }
 
-ul {
-    padding-left: 20px;
+section{
+background:white;
+margin-top:25px;
+padding:30px;
+border-radius:16px;
+box-shadow:0 6px 18px rgba(0,0,0,.05);
 }
 
-.project {
-    margin-bottom: 15px;
+h2{
+margin-bottom:20px;
+padding-left:12px;
+border-left:5px solid #2563eb;
+color:#0f172a;
 }
 
-.badge {
-    display: inline-block;
-    background: #e0f2fe;
-    color: #0369a1;
-    padding: 5px 10px;
-    border-radius: 20px;
-    margin: 5px 5px 0 0;
-    font-size: 13px;
+.badge{
+display:inline-block;
+background:#e0f2fe;
+padding:10px 14px;
+border-radius:30px;
+margin:8px;
+font-weight:600;
 }
 
-a {
-    color: #2563eb;
-    text-decoration: none;
+.project{
+margin-bottom:25px;
+padding:20px;
+background:#f8fafc;
+border-radius:12px;
 }
 
-a:hover {
-    text-decoration: underline;
+.project h3{
+margin-bottom:10px;
+color:#1d4ed8;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 30px;
-    font-size: 14px;
-    color: #777;
+.project ul{
+padding-left:20px;
+}
+
+.project li{
+margin:8px 0;
+}
+
+.highlight{
+background:#ecfdf5;
+border-left:5px solid #16a34a;
+padding:18px;
+border-radius:10px;
+font-weight:600;
+margin-top:15px;
+}
+
+.links a{
+display:inline-block;
+margin-right:20px;
+font-weight:bold;
+text-decoration:none;
+color:#2563eb;
+}
+
+footer{
+text-align:center;
+margin-top:40px;
+padding:30px;
+background:#0f172a;
+color:#cbd5e1;
 }
 </style>
 </head>
@@ -91,99 +124,157 @@ footer {
 <body>
 
 <header>
-    <h1>🚀 Maria Abishek J R</h1>
-    <p class="subtitle">Cloud & DevOps Engineer ☁️ | AWS | Docker | Terraform</p>
-    <p>📍 Tiruchirappalli, Tamil Nadu | 📞 +91 6385581464</p>
-    <p>📧 abishek62003@gmail.com</p>
+<h1>🚀 Maria Abishek J R</h1>
+
+<p><b>DevOps Engineer | AWS | Kubernetes | CI/CD</b></p>
+
+<p>📍 Tiruchirappalli, Tamil Nadu</p>
+
+<p>📧 abishek62003@gmail.com</p>
+
+<p>📞 +91 6385581464</p>
+
+<div class="hero-badge">
+✅ Live Production CI/CD Pipeline on EKS
+</div>
+
 </header>
+
 
 <div class="container">
 
+
 <section>
 <h2>💼 Professional Summary</h2>
+
 <p>
-Passionate Cloud & DevOps Engineer with hands-on experience in AWS, Docker, and Terraform.
-Skilled in building scalable infrastructure, automation, and secure cloud architectures.
+Passionate DevOps Engineer with hands-on experience in 
+AWS, Docker, Kubernetes, Jenkins and Terraform.
+Focused on CI/CD automation, infrastructure as code,
+container orchestration and scalable cloud deployments.
 </p>
 
-<p style="margin-top:10px; color:#16a34a; font-weight:bold;">
-✅ Live CI/CD Pipeline Active (GitHub → Jenkins → EC2)
-</p>
+<div class="highlight">
+GitHub → Jenkins → Docker → Amazon EKS → LoadBalancer
+</div>
+
 </section>
 
+
+
 <section>
-<h2>🛠️ Technical Skills</h2>
-<div>
+<h2>🛠 Technical Skills</h2>
+
 <span class="badge">AWS ☁️</span>
 <span class="badge">Docker 🐳</span>
+<span class="badge">Kubernetes ☸️</span>
+<span class="badge">Amazon EKS 🚀</span>
+<span class="badge">Jenkins 🔧</span>
 <span class="badge">Terraform 🌍</span>
 <span class="badge">Linux 🐧</span>
-<span class="badge">Git & GitHub 🔗</span>
+<span class="badge">Git/GitHub 🔗</span>
 <span class="badge">CI/CD ⚙️</span>
-<span class="badge">Python 🐍</span>
-<span class="badge">Shell Script 💻</span>
-</div>
+<span class="badge">Shell Scripting 💻</span>
+
 </section>
+
+
 
 <section>
-<h2>📂 Projects</h2>
+<h2>🔥 Featured Projects</h2>
+
 
 <div class="project">
-<b>🔹 Two-Tier Web Application Deployment</b>
+<h3>Production CI/CD Pipeline on EKS</h3>
+
+<ul>
+<li>Built automated CI/CD pipeline using Jenkins</li>
+<li>Containerized portfolio app using Docker</li>
+<li>Pushed images to Docker Hub</li>
+<li>Deployed application to Amazon EKS</li>
+<li>Exposed app through Kubernetes LoadBalancer</li>
+<li>Implemented rolling deployments and scaling</li>
+</ul>
+
+</div>
+
+
+<div class="project">
+<h3>Terraform Infrastructure Automation</h3>
+
+<ul>
+<li>Provisioned AWS infrastructure using Terraform</li>
+<li>Created reusable modular infrastructure code</li>
+<li>Automated VPC, EC2 and security groups</li>
+</ul>
+
+</div>
+
+
+<div class="project">
+<h3>Two-Tier Web Application Deployment</h3>
+
 <ul>
 <li>Deployed EC2 + RDS architecture</li>
-<li>Configured VPC, IAM, and security groups</li>
+<li>Configured networking, IAM and security groups</li>
+<li>Implemented secure application connectivity</li>
 </ul>
-</div>
 
-<div class="project">
-<b>🔹 Static Website Hosting on S3</b>
-<ul>
-<li>Hosted static site using S3 bucket</li>
-<li>Configured IAM policies</li>
-</ul>
-</div>
-
-<div class="project">
-<b>🔹 Dockerized Application</b>
-<ul>
-<li>Containerized apps using Docker</li>
-<li>Managed images using GitHub</li>
-</ul>
-</div>
-
-<div class="project">
-<b>🔹 Terraform Infrastructure</b>
-<ul>
-<li>Automated AWS infrastructure provisioning</li>
-<li>Used reusable modular configs</li>
-</ul>
 </div>
 
 </section>
+
+
+
+<section>
+<h2>🔥 Current Work</h2>
+
+<p>
+Building production-style DevOps projects involving
+Jenkins pipelines, Kubernetes, EKS, storage volumes,
+and infrastructure automation.
+</p>
+
+</section>
+
+
 
 <section>
 <h2>🎓 Education</h2>
+
 <p>
-B.E. Electronics and Communication Engineering<br>
-K. Ramakrishnan College of Engineering (2020–2024)<br>
+B.E Electronics and Communication Engineering <br>
+K. Ramakrishnan College of Engineering (2020-2024)<br>
 CGPA: 7.95
 </p>
+
 </section>
 
+
+
 <section>
-<h2>🌐 Connect With Me</h2>
-<p>
-🔗 <a href="https://github.com/abishek0240" target="_blank">GitHub</a><br>
-💼 <a href="https://www.linkedin.com/in/maria-abishek-14996b31b" target="_blank">LinkedIn</a>
-</p>
+<h2>🌐 Connect</h2>
+
+<div class="links">
+<a href="https://github.com/abishek0240" target="_blank">
+GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/maria-abishek-14996b31b" target="_blank">
+LinkedIn
+</a>
+</div>
+
 </section>
+
 
 </div>
 
+
 <footer>
-✨ © 2026 Maria Abishek | Built with HTML & hosted on AWS EC2
+✨ Deployed on Amazon EKS via Jenkins CI/CD Pipeline
 </footer>
 
+
 </body>
-</html>z
+</html>
