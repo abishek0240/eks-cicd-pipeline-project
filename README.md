@@ -36,3 +36,13 @@ Clone → Build → Push → Deploy
 - ArgoCD
 - ECR
 - GitOps
+## Screenshots
+
+### Jenkins Pipeline Success
+![Jenkins Pipeline](jenkins.png)
+
+### Kubernetes Pods Running
+![EKS Pods](eks-pods.png)
+
+### Application Running
+![Application](app.png)
